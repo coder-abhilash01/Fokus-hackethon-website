@@ -10,9 +10,9 @@ const App = () => {
   return (
     <div className='relative'>
       <Nav/>
-      {/* {!loaded && <Loader onComplete={() => setLoaded(true)} />}
-      {loaded && <MainRoutes />} */}
-      <MainRoutes />
+      {!loaded && <Loader onComplete={() => setLoaded(true)} />}
+      {loaded && <MainRoutes />}
+      
     </div>
   )
 }

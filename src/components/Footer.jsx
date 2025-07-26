@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   RiInstagramLine,
   RiYoutubeLine,
@@ -51,12 +52,12 @@ const Footer = () => {
             <a href="#" className="hover:text-[#FF4C61] transition">
               <RiTwitterXLine size={20} />
             </a>
-            <a href="#" className="hover:text-[#FF4C61] transition">
+            <Link to="https://www.instagram.com/letsfokus/?igsh=MWZhYno5c2NyYXJvZQ%3D%3D#" className="hover:text-[#FF4C61] transition">
               <RiInstagramLine size={20} />
-            </a>
-            <a href="#" className="hover:text-[#FF4C61] transition">
+            </Link>
+            <Link to="https://www.youtube.com/@letsfokuschannel" className="hover:text-[#FF4C61] transition">
               <RiYoutubeLine size={20} />
-            </a>
+            </Link>
             <a href="#" className="hover:text-[#FF4C61] transition">
               <RiMailLine size={20} />
             </a>
